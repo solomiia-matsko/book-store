@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  padding-top: 20px;
+}
+
+::-webkit-scrollbar-track {
+  margin-block: .5em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFCE1A;
+  border-radius: 10px;
+}
